@@ -14,6 +14,7 @@ body{
   background: url("components/bgImg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .banner-content{
   display: flex;
@@ -36,5 +37,58 @@ body{
 }
 .banner_text p{
   font-size: 25px;
-  font-weight: 500 ;
+  font-weight: 500;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navbar_text{
+  display: flex;
+  height: 110px;
+  align-items:center;
+  width: 1200px;
+  margin: 0 auto;
+
+
+}
+.logo{
+  width: 30%;
+}
+.logo img{
+  width: 100px;
+}
+.navbar ul{
+ width:  70%;
+ list-style-type: none;
+ text-decoration: none;
+ display: flex;
+ justify-content: flex-end;
+}
+.navbar_ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+.banner_btn{
+  margin-top: 38px;
+}
+.btn{
+  text-decoration: none;
+  outline: none;
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+
+.btn-smart{
+  background: #552f10;
 }
