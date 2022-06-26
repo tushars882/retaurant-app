@@ -20,12 +20,12 @@ body{
   display: flex;
   align-items: center;
   height: 100vh;
+  color: whitesmoke;
 }
 .container{
   width: 1200px;
   max-width: 1200px;
   margin: auto;
-  color: white;
 }
 .banner_text{
   width: 40%;
@@ -91,4 +91,75 @@ body{
 
 .btn-smart{
   background: #552f10;
+}
+.about{
+ padding: 80px 0px;
+}
+.row{
+  width: 100%;
+  display: flex;
+}
+.col-6{
+  width: 50%; 
+}
+.about h3{
+  font-size: 30px;
+  color: rgba(37, 37, 37, 0.7 );
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.p-25{
+  padding: 45px;
+}
+
+.about h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p{
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 350;
+}
+.about_btn{
+  margin-top:40px;
+}
+.about_img{
+  width: 100%;
+  overflow: hidden;
+}
+.about_img img{
+  width: 100%;
+}
+
+.shop{
+  width: 100%;
+  background: url("./components/bgImg3.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.shop_text{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+}
+.shop_text h1{
+  font-size: 40px;
+  line-height: 65px;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 0.5px;
+  color: whitesmoke;
+}
+.shop_btn{
+  margin-top: 40px ;
+  margin-left: 50px;
 }
