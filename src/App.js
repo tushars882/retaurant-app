@@ -5,15 +5,16 @@ import { About } from './components/About';
 import { Menu } from './components/Menu';
 import { Client } from './components/Client';
 import { Prices } from './components/Prices';
+import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <About/>
-      <Shop/>
-      <Menu/>
-      <Client/>
-      <Prices/>
+      <Header />
+      <About />
+      <Shop />
+      <Menu />
+      <Client />
+      <Prices />
     </div>
   );
 }

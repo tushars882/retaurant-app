@@ -1,9 +1,11 @@
 import React from 'react'
+// import { Link } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar" id="Navbar">
         <div className="navbar_text">
           <div className="logo">
             <img
@@ -11,21 +13,49 @@ export const Navbar = () => {
               alt="No img"
             />
           </div>
-          <ul className='navbar_ul'>
+          <ul className="navbar_ul">
             <li>
-              <a href="">Home</a>
+              <Link to="">Home</Link>
             </li>
             <li>
-              <a href="">Shop</a>
+              <Link
+                to="Shop"
+                smooth={true}
+                duration={1000}
+                style={{ cursor: "pointer" }}
+              >
+                Shop
+              </Link>
             </li>
             <li>
-              <a href="">News</a>
+              <Link
+                to="Prices"
+                smooth={true}
+                duration={800}
+                style={{ cursor: "pointer" }}
+              >
+                Prices
+              </Link>
             </li>
             <li>
-              <a href="">About</a>
+              <Link
+                to="About"
+                smooth={true}
+                duration={1000}
+                style={{ cursor: "pointer" }}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <a href="">Contact Us</a>
+              <Link
+                to=""
+                smooth={true}
+                duration={1000}
+                style={{ cursor: "pointer" }}
+              >
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
