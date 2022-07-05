@@ -1,6 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
+
+  
+
 
 export const Shop = () => {
+
+
   return (
     <div className='shop' id='Shop'>
        <div className="container">
@@ -8,9 +15,10 @@ export const Shop = () => {
             <div>
                 <h1>Enjoy Free Delivery As Well</h1>
                 <div className="shop_btn">
-                    <a href="" className='btn btn-smart'>
-                    Shop Now    
-                    </a>
+                  <button>
+                  <Link to="/form"> Click </Link>
+                  </button>
+                  
                 </div>
             </div>
         </div>

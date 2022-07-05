@@ -1,20 +1,15 @@
 import './App.css';
-import { Shop } from './components/Shop';
-import { Header } from './components/Header';
-import { About } from './components/About';
-import { Menu } from './components/Menu';
-import { Client } from './components/Client';
-import { Prices } from './components/Prices';
-import { Routes, Route, Link } from "react-router-dom";
+import { Form } from './components/form/Form';
+import { Routes, Route } from "react-router";
+import Main from './Main';
+
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <Shop />
-      <Menu />
-      <Client />
-      <Prices />
+      <Routes>
+        <Route exact path="/" element={<Main />} />
+        <Route exact path="form" element={<Form />} />
+      </Routes>
     </div>
   );
 }

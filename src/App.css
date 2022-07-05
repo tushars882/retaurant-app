@@ -266,3 +266,51 @@ body {
     margin:20px 0px ;
   }
 }
+.container-1{
+  border: 2px solid red;
+  display: block;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+  margin-top: 100px;
+  height: 65vh;
+  border-radius: 15px;
+  overflow: auto;
+}
+.form{
+  display: block;
+  /* border: 2px solid black; */
+}
+.form label{
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+.form input{
+margin-top: 5px;
+margin-bottom: 15px;
+width: 40%;
+height: 4vh;
+padding: 4px 4px ;
+font-size: large;
+font-family:'Arial, Helvetica, sans-serif';
+opacity: 1;
+
+}
+.btn{
+  margin-top: 15px;
+  height: 35px;
+  width: 20%;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.textarea{
+  padding: 4px 4px;
+  font-size: large;
+  font-family: 'Arial, Helvetica, sans-serif'
+}
+::placeholder{
+  opacity: 0.3;
+}
+
