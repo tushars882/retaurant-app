@@ -15,8 +15,8 @@ export const Shop = () => {
             <div>
                 <h1>Enjoy Free Delivery As Well</h1>
                 <div className="shop_btn">
-                  <button>
-                  <Link to="/form"> Click </Link>
+                  <button id="order-now">
+                  <Link to="/form" id="order-now-link"> Order Now </Link>
                   </button>
                   
                 </div>

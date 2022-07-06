@@ -24,6 +24,8 @@ export const Form = () => {
     const newRecord = { ...userInfo };
     console.log(records);
     setRecords([...records, newRecord]); //all those wwho have already submitted is carried by ...records
+
+    setuserInfo({userName:"",mobile:"",address:""})
   };
 
 
