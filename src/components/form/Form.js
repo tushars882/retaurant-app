@@ -31,6 +31,11 @@ export const Form = () => {
 
   return (
     <>
+    <div className="main-container-form">
+      <div className="form-heading" id='form-heading'>
+      <h1>Your Food is waiting to be with:</h1>
+      </div>
+
       <div className="container-1">
         <div className="form" onSubmit={handleSubmit}>
           <label htmlFor="name">Name</label>
@@ -46,10 +51,10 @@ export const Form = () => {
           />
           <br />
 
-          <label htmlFor="name"> Mobile</label>
+          <label htmlFor="mobile"> Mobile</label>
           <br />
           <input
-            type="text"
+            type="tel"
             name="mobile" //this hould be the key in useState
             id="mobile"
             autoComplete="no"
@@ -63,7 +68,7 @@ export const Form = () => {
           <br />
           <textarea
             type="textarea"
-            cols={50}
+            cols={30}
             rows={6}
             name="address"
             id="address"
@@ -79,6 +84,7 @@ export const Form = () => {
           </button>
         </div>
       </div>
+    </div>
     </>
   );
 };
