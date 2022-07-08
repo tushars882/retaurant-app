@@ -1,6 +1,18 @@
 import React from "react";
 
 export const About = () => {
+
+  const aboutUs=(e)=>{
+    var x=document.getElementById('read-more');
+    var y=document.getElementById('aboutUs-button')
+    if(x.style.display==='none'){
+      x.style.display='block'
+      y.innerText.replace='Read Less'
+    }
+    else{
+      x.style.display='none'
+    }
+  }
   return (
     <div className="about" id="About">
       <div className="container">
@@ -12,11 +24,9 @@ export const About = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
               modi voluptatibus fugit nemo illo molestiae dolores unde
               quibusdam, ipsam totam sapiente omnis vitae cumque.
-            </p>
+            </p><span id="read-more">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla corrupti magni ipsum? A necessitatibus voluptatem voluptate fugit tenetur minima. Natus, eos! Soluta, non quaerat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque deserunt reprehenderit consequatur laudantium eum perspiciatis debitis at, aspernatur, voluptatem iusto exercitationem consequuntur cumque veniam.</span>
             <div className="about_btn">
-              <a href="/" className="btn btn-smart">
-                READ MORE
-              </a>
+             <button className="button-aboutUs" onClick={aboutUs} id='aboutUs-button'>Read More</button>
             </div>
           </div>
           <div className="col-6">
