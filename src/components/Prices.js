@@ -96,6 +96,10 @@ export const Prices = () => {
           </div>
         </div>
       </div>
+      <div>
+        <marquee scrollamount='10'>Available In All Stores Kindly Visit The Store For More</marquee>
+        
+      </div>
     </div>
   );
 }

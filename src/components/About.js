@@ -7,10 +7,11 @@ export const About = () => {
     var y=document.getElementById('aboutUs-button')
     if(x.style.display==='none'){
       x.style.display='block'
-      y.innerText.replace='Read Less'
+      y.innerHTML='Read Less'
     }
     else{
       x.style.display='none'
+      y.innerHTML='Read More'
     }
   }
   return (

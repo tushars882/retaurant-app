@@ -132,8 +132,25 @@ body {
 .about_img img {
   width: 100%;
 }
+#aboutUs-button{
+    width: 200px;
+    padding: 5px;
+    height: 65px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #393a40;
+    font-weight: 700;
+    color: aliceblue;
+    cursor: pointer;
+}
 #read-more{
   display: none;
+  font-size: 18px;
+  color: #8b8b8b;
+  font-weight: 350;
+  transition: 0.3s;
 }
 .shop {
   width: 100%;
